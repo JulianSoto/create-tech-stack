@@ -13,7 +13,11 @@ let mainWindow;
 
 function createWindow() {
   // Create the browser window.
-  mainWindow = new BrowserWindow({ width: 800, height: 600 });
+  mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: { nodeIntegration: true },
+  });
 
   const startUrl =
     process.env.ELECTRON_START_URL ||
