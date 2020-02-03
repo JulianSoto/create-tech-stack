@@ -41,5 +41,6 @@
     "react-app-rewired": "^2.1.5"
   },
   "main": "electron-start.js",
-  "homepage": "./"
+  "homepage": "./",
+  "gypfile": true
 }
