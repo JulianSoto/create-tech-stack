@@ -2,7 +2,7 @@
     "targets": [
         {
             "target_name": "native",
-            "sources": [],
+            "sources": ["binding.cpp"],
             "include_dirs": [
                 "<!@(node -p \"require('node-addon-api').include\")"
             ],
